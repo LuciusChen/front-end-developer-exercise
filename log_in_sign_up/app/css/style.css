@@ -1,0 +1,84 @@
+#demo {
+    width: 800px;
+    height: 1000px;
+    margin: 20px auto 20px;
+    position: relative;
+}
+.signup, .login {
+    width: 280px;
+    height: 340px;
+    margin: 20px auto;
+    background-color: #795AA9;
+    padding-top: 5px;
+    position: absolute;
+    transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+.signup {
+    left: 220px;
+    top: 140px;
+    z-index:1000;
+    transform-origin: 140px 150px;
+    box-shadow: 2px 2px 10px #333;
+}
+.login {
+    left: 310px;
+    top: 120px;
+    transform-origin: 140px 170px;
+    transform: scale(0.6) rotate(-90deg);
+}
+.signup input[type="text"] {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 30px auto;
+    font-size: 15px;
+    background-color: #9A7CCA;
+    border: none;
+    padding: 0 6px;
+}
+#demo .submitButton {
+    display: block;
+    width: 280px;
+    height: 70px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    background-color: #75CE43;
+}
+#demo .reset {
+    display: block;
+    color: #C0B1EA;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 6px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #8163B1;
+    margin: 30px auto;
+}
+.login input[type="text"] {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 30px auto;
+    font-size: 15px;
+    background-color: #9A7CCA;
+    border: none;
+    padding: 0 6px;
+}
+input::-webkit-input-placeholder {
+    color: #D0C4EE;
+}
+input::-moz-placeholder {
+    color: #D0C4EE;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+}
