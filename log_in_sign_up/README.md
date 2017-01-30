@@ -2,6 +2,8 @@
 
 代码实现的 gif 来自[Yaroslav Zubko](https://material.uplabs.com/posts/7-1-log-in-sign-up)
 
+jQuery 来自[Staticfile CDN](https://www.staticfile.org/)
+
 ## 收获
 
 下面代码可以用来定义 placeholder 的样式。
