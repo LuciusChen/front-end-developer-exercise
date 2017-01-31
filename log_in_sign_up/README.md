@@ -1,8 +1,6 @@
 # log_in_sign_up
 
-代码实现的 gif 来自[Yaroslav Zubko](https://material.uplabs.com/posts/7-1-log-in-sign-up)
-
-jQuery 来自[Staticfile CDN](https://www.staticfile.org/)
+代码实现的 GIF 来自[Yaroslav Zubko](https://material.uplabs.com/posts/7-1-log-in-sign-up)
 
 ## 收获
 
