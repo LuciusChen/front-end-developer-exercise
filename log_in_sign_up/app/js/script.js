@@ -1,3 +1,4 @@
+//登录和注册动画都分为三个阶段
 function login_animation (){
     if($(".login").css("z-index")==1000){
         return;
